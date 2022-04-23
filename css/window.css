@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.game-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.viewport {
+    /* position: absolute; */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: white; */
+    overflow: hidden;
+    height: 600px;
+    width:  1000px;
+}
+
+.view {
+    background-color: blue;
+    height: 200vh;
+    width:  200vw;
+    border-bottom: 50px solid #333;
+}
+
+.player {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+}
